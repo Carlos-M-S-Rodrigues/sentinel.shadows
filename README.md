@@ -25,7 +25,9 @@ Logic Apps & Workbooks
 
 
 🚀 Deploy Example
-bash cd phase1_deception_layer az deployment group create --resource-group <your-rg> --template-file main.bicep
+bash cli azure 
+  cd sentinel_shadows_phase1 
+  az deployment group create --resource-group <your-rg> --template-file main.bicep
 
 
 🤝 Contribute
